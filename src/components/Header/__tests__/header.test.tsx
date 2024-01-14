@@ -6,6 +6,7 @@ import { store } from "../../../store"
 describe('testes para o componente header', () => {
     test('deve renderizar corretamente', () => {
         render(
+            
             //* Quando trabalhamos com o redux, para o teste funcionar
             //* precisamos colocar o conteúdo de teste dentro do provider
             <Provider store={store}>
